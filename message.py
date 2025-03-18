@@ -8,7 +8,7 @@ payload = {
 }
 
 headers = {
-    "Authorization": "---" # Accout token
+    "Authorization": "---" # Account token
 }
 
 # Get your discord token: 
