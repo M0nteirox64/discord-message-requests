@@ -13,4 +13,6 @@ headers = {
 
 for i in range(5):  
     i = i + 1
-    requests.post(url, payload, headers=headers)
+    res = requests.post(url, payload, headers=headers)
+    if res.status_code == 200:
+        print("[ + ] message sent")
