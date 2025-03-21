@@ -13,7 +13,7 @@ headers = {
 
 # Get your discord token: 
 # alert((webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken());
-# ^ Paste it in the F12 console.
+# ^ Paste this in the F12 console.
 
 res = requests.post(url, payload, headers=headers)
 if res.status_code == 200:
